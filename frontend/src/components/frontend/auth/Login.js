@@ -24,6 +24,15 @@ function Login() {
                     />
                   </div>
                   <div className="form-group mb-3">
+                    <label>Password</label>
+                    <input
+                      type="password"
+                      name="password"
+                      value=""
+                      className="form-control"
+                    />
+                  </div>
+                  <div className="form-group mb-3">
                     <button type="submit" className="btn btn-primary">
                       Login
                     </button>
